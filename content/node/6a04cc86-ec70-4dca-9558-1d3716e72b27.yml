@@ -1,0 +1,85 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6a04cc86-ec70-4dca-9558-1d3716e72b27
+  bundle: icms_contenthub_article
+  default_langcode: de
+  depends:
+    f8a1a06a-c8bd-4efc-bc59-8feee29d4808: taxonomy_term
+    b64307f3-9232-4837-a09d-dcfd877ad189: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Artikel Phasellus accumsan'
+  created:
+    -
+      value: 1749827911
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Artikel Phasellus accumsan | ICMS'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Lorem ipsum dolor sit amet consectetur adipiscing elit mollis natoque, ornare potenti curabitur dignissim consequat posuere per tortor, cubilia ante sociosqu sed porttitor a ligula'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'https://starterkit.ddev.site/de/artikel/artikel-phasellus-accumsan'
+  path:
+    -
+      alias: /artikel/artikel-phasellus-accumsan
+      langcode: de
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Lorem ipsum dolor sit amet consectetur adipiscing elit mollis natoque, ornare potenti curabitur dignissim consequat posuere per tortor, cubilia ante sociosqu sed porttitor a ligula mauris. Montes cum arcu id magna erat diam sociosqu hendrerit ligula congue, urna purus facilisis nullam natoque cubilia mi nunc eu, dui maecenas porta mus parturient nibh donec iaculis duis. Nullam dis sociis euismod venenatis aliquet semper cubilia, vel dignissim class vitae habitant massa eget, habitasse odio tempor laoreet mattis pretium. Litora molestie tortor mus nisi primis vulputate fringilla, sagittis ligula torquent ridiculus praesent blandit ultrices dis, proin tincidunt consequat pellentesque faucibus suspendisse.'
+      format: plain_text
+      summary: ''
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1749827927
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_icms_contenthub_duration:
+    -
+      value: '5 Minuten'
+  field_icms_topics:
+    -
+      entity: f8a1a06a-c8bd-4efc-bc59-8feee29d4808
+    -
+      entity: b64307f3-9232-4837-a09d-dcfd877ad189

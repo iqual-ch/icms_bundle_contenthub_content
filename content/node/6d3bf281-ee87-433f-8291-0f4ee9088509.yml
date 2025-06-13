@@ -1,0 +1,85 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 6d3bf281-ee87-433f-8291-0f4ee9088509
+  bundle: icms_contenthub_article
+  default_langcode: de
+  depends:
+    73a2d543-f54a-4839-82e8-b47627635b66: taxonomy_term
+    f8a1a06a-c8bd-4efc-bc59-8feee29d4808: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'Artikel Nostra sociis'
+  created:
+    -
+      value: 1749827950
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Artikel Nostra sociis | ICMS'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Lorem ipsum dolor sit amet consectetur adipiscing elit mollis natoque, ornare potenti curabitur dignissim consequat posuere per tortor, cubilia ante sociosqu sed porttitor a ligula'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'https://starterkit.ddev.site/de/artikel/artikel-nostra-sociis'
+  path:
+    -
+      alias: /artikel/artikel-nostra-sociis
+      langcode: de
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Lorem ipsum dolor sit amet consectetur adipiscing elit mollis natoque, ornare potenti curabitur dignissim consequat posuere per tortor, cubilia ante sociosqu sed porttitor a ligula mauris. Montes cum arcu id magna erat diam sociosqu hendrerit ligula congue, urna purus facilisis nullam natoque cubilia mi nunc eu, dui maecenas porta mus parturient nibh donec iaculis duis. Nullam dis sociis euismod venenatis aliquet semper cubilia, vel dignissim class vitae habitant massa eget, habitasse odio tempor laoreet mattis pretium.'
+      format: plain_text
+      summary: ''
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1749827988
+      last_comment_name: ''
+      last_comment_uid: 1
+      comment_count: 0
+  field_icms_contenthub_duration:
+    -
+      value: '1 Stunde'
+  field_icms_topics:
+    -
+      entity: 73a2d543-f54a-4839-82e8-b47627635b66
+    -
+      entity: f8a1a06a-c8bd-4efc-bc59-8feee29d4808

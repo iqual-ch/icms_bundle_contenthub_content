@@ -1,0 +1,6 @@
+name: 'ICMS Content Hub  - Content Recipe'
+description: 'Provide default content for the ICMS Content Hub.'
+type: 'Content'
+
+recipes:
+  - icms_bundle_contenthub
