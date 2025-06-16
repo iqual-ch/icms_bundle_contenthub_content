@@ -2,7 +2,7 @@ _meta:
   version: '1.0'
   entity_type: node
   uuid: bef28b08-0cd2-4f9d-8dc1-af7518a30a93
-  bundle: icms_contenthub_article
+  bundle: icms_contenthub
   default_langcode: de
   depends:
     f8a1a06a-c8bd-4efc-bc59-8feee29d4808: taxonomy_term
