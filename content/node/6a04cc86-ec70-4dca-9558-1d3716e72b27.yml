@@ -5,12 +5,13 @@ _meta:
   bundle: icms_contenthub
   default_langcode: de
   depends:
-    f8a1a06a-c8bd-4efc-bc59-8feee29d4808: taxonomy_term
+    d99e7252-4555-4701-a788-25befa086176: user
+    6462ab73-beb9-449b-b85b-29b185216c3e: media
     b64307f3-9232-4837-a09d-dcfd877ad189: taxonomy_term
 default:
   revision_uid:
     -
-      target_id: 1
+      entity: d99e7252-4555-4701-a788-25befa086176
   status:
     -
       value: true
@@ -19,7 +20,7 @@ default:
       target_id: 1
   title:
     -
-      value: 'Artikel Phasellus accumsan'
+      value: 'Contenthub Artikel 3 Thema C'
   created:
     -
       value: 1749827911
@@ -40,7 +41,7 @@ default:
       tag: meta
       attributes:
         name: title
-        content: 'Artikel Phasellus accumsan | ICMS'
+        content: 'Contenthub Artikel 3 Thema C | ICMS'
     -
       tag: meta
       attributes:
@@ -50,10 +51,10 @@ default:
       tag: link
       attributes:
         rel: canonical
-        href: 'https://starterkit.ddev.site/de/artikel/artikel-phasellus-accumsan'
+        href: 'http://default/de/artikel/contenthub-artikel-3-thema-c'
   path:
     -
-      alias: /artikel/artikel-phasellus-accumsan
+      alias: /artikel/contenthub-artikel-3-thema-c
       langcode: de
       pathauto: 1
   content_translation_source:
@@ -71,15 +72,26 @@ default:
     -
       status: 2
       cid: 0
-      last_comment_timestamp: 1749827927
+      last_comment_timestamp: 1750140308
       last_comment_name: ''
       last_comment_uid: 1
       comment_count: 0
   field_icms_contenthub_duration:
     -
       value: '5 Minuten'
-  field_icms_topics:
+  field_icms_teaser_image:
     -
-      entity: f8a1a06a-c8bd-4efc-bc59-8feee29d4808
+      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+  field_icms_teaser_pretitle:
+    -
+      value: 'Thema C'
+  field_icms_teaser_text:
+    -
+      value: '<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua</p>'
+      format: icms_restricted
+  field_icms_teaser_title:
+    -
+      value: 'Contenthub Artikel 3'
+  field_icms_topics:
     -
       entity: b64307f3-9232-4837-a09d-dcfd877ad189

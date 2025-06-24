@@ -5,12 +5,14 @@ _meta:
   bundle: icms_contenthub
   default_langcode: de
   depends:
+    d99e7252-4555-4701-a788-25befa086176: user
+    6462ab73-beb9-449b-b85b-29b185216c3e: media
     73a2d543-f54a-4839-82e8-b47627635b66: taxonomy_term
     b64307f3-9232-4837-a09d-dcfd877ad189: taxonomy_term
 default:
   revision_uid:
     -
-      target_id: 1
+      entity: d99e7252-4555-4701-a788-25befa086176
   status:
     -
       value: true
@@ -19,7 +21,7 @@ default:
       target_id: 1
   title:
     -
-      value: 'Artikel Sollicitudin congue magna'
+      value: 'Contenthub Artikel 4 Thema A und C'
   created:
     -
       value: 1749827869
@@ -40,7 +42,7 @@ default:
       tag: meta
       attributes:
         name: title
-        content: 'Artikel Sollicitudin congue magna | ICMS'
+        content: 'Contenthub Artikel 4 Thema A und C | ICMS'
     -
       tag: meta
       attributes:
@@ -50,10 +52,10 @@ default:
       tag: link
       attributes:
         rel: canonical
-        href: 'https://starterkit.ddev.site/de/artikel/artikel-sollicitudin-congue-magna'
+        href: 'http://default/de/artikel/contenthub-artikel-4-thema-und-c'
   path:
     -
-      alias: /artikel/artikel-sollicitudin-congue-magna
+      alias: /artikel/contenthub-artikel-4-thema-und-c
       langcode: de
       pathauto: 1
   content_translation_source:
@@ -71,13 +73,26 @@ default:
     -
       status: 2
       cid: 0
-      last_comment_timestamp: 1749827898
+      last_comment_timestamp: 1750140308
       last_comment_name: ''
       last_comment_uid: 1
       comment_count: 0
   field_icms_contenthub_duration:
     -
       value: '3 Minuten'
+  field_icms_teaser_image:
+    -
+      entity: 6462ab73-beb9-449b-b85b-29b185216c3e
+  field_icms_teaser_pretitle:
+    -
+      value: 'Thema A und C'
+  field_icms_teaser_text:
+    -
+      value: '<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua</p>'
+      format: icms_restricted
+  field_icms_teaser_title:
+    -
+      value: 'Contenthub Artikel 4'
   field_icms_topics:
     -
       entity: 73a2d543-f54a-4839-82e8-b47627635b66

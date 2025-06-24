@@ -12,7 +12,7 @@ default:
       value: true
   title:
     -
-      value: 'Content Hub Übersicht'
+      value: Contenthub
   menu_name:
     -
       value: main
@@ -20,7 +20,10 @@ default:
     -
       target_uuid: eb9edebe-de47-452f-a86e-f88a587b21c6
       title: ''
-      options: {  }
+      options:
+        attributes:
+          class:
+            - ''
   external:
     -
       value: false
@@ -29,13 +32,16 @@ default:
       value: false
   weight:
     -
-      value: 50
+      value: 20
   expanded:
     -
       value: false
   revision_translation_affected:
     -
       value: true
+  view_mode:
+    -
+      value: default
   metatag:
     -
       tag: meta
@@ -46,7 +52,7 @@ default:
       tag: link
       attributes:
         rel: canonical
-        href: 'https://starterkit.ddev.site/de'
+        href: 'http://default/de'
   content_translation_source:
     -
       value: und
