@@ -1,0 +1,123 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 5b91175e-0a7a-4c92-ab87-9d6e82e60b90
+  bundle: icms_page
+  default_langcode: en
+  depends:
+    d99e7252-4555-4701-a788-25befa086176: user
+    73a2d543-f54a-4839-82e8-b47627635b66: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  title:
+    -
+      value: 'Contenthub manueller Filter'
+  created:
+    -
+      value: 1750751046
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  metatag:
+    -
+      tag: meta
+      attributes:
+        name: title
+        content: 'Contenthub manueller Filter | ICMS'
+    -
+      tag: meta
+      attributes:
+        name: description
+        content: 'Thema A, mit manuellem Filter editierten Teaser-Elementen'
+    -
+      tag: link
+      attributes:
+        rel: canonical
+        href: 'http://default/en/contenthub/contenthub-manueller-filter'
+  path:
+    -
+      alias: /contenthub/contenthub-manueller-filter
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Thema A, mit manuellem Filter editierten Teaser-Elementen.'
+      format: plain_text
+      summary: ''
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1750751080
+      last_comment_name: ''
+      last_comment_uid: 17
+      comment_count: 0
+  field_icms_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 565ccf1f-fc45-4de7-9fe1-536bcc942d6a
+          bundle: icms_layout_contenthub
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          created:
+            -
+              value: 1750751637
+          behavior_settings:
+            -
+              value: {  }
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_listing_type:
+            -
+              value: manual
+          field_icms_pretitle:
+            -
+              value: 'Thema A'
+          field_icms_title:
+            -
+              value: 'Contenthub mit manuellem Filter'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+          field_icms_topics:
+            -
+              entity: 73a2d543-f54a-4839-82e8-b47627635b66
