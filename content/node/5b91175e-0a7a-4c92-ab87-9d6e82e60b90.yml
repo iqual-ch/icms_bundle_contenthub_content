@@ -3,7 +3,7 @@ _meta:
   entity_type: node
   uuid: 5b91175e-0a7a-4c92-ab87-9d6e82e60b90
   bundle: icms_page
-  default_langcode: en
+  default_langcode: de
   depends:
     d99e7252-4555-4701-a788-25befa086176: user
     73a2d543-f54a-4839-82e8-b47627635b66: taxonomy_term
@@ -50,11 +50,11 @@ default:
       tag: link
       attributes:
         rel: canonical
-        href: 'http://default/en/contenthub/contenthub-manueller-filter'
+        href: 'http://default/de/contenthub/contenthub-manueller-filter'
   path:
     -
       alias: /contenthub/contenthub-manueller-filter
-      langcode: en
+      langcode: de
       pathauto: 1
   content_translation_source:
     -
@@ -83,7 +83,7 @@ default:
           entity_type: paragraph
           uuid: 565ccf1f-fc45-4de7-9fe1-536bcc942d6a
           bundle: icms_layout_contenthub
-          default_langcode: en
+          default_langcode: de
         default:
           status:
             -
