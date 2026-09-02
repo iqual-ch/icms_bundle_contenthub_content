@@ -1,0 +1,693 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: e5820000-0000-4000-8000-0000000a0008
+  bundle: icms_page
+  default_langcode: en
+  depends:
+    d99e7252-4555-4701-a788-25befa086176: user
+    a15d0669-724a-47fe-8032-91e7a6246667: media
+    73a2d543-f54a-4839-82e8-b47627635b66: taxonomy_term
+    f8a1a06a-c8bd-4efc-bc59-8feee29d4808: taxonomy_term
+default:
+  revision_uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  status:
+    -
+      value: true
+  uid:
+    -
+      entity: d99e7252-4555-4701-a788-25befa086176
+  title:
+    -
+      value: 'Content hub'
+  promote:
+    -
+      value: false
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  moderation_state:
+    -
+      value: published
+  path:
+    -
+      alias: /content-hub
+      langcode: en
+      pathauto: 1
+  content_translation_source:
+    -
+      value: und
+  content_translation_outdated:
+    -
+      value: false
+  body:
+    -
+      value: 'Aggregated articles and resources.'
+      format: plain_text
+      summary: ''
+  field_blokkli_comments:
+    -
+      status: 2
+      cid: 0
+      last_comment_timestamp: 1788181997
+      last_comment_name: ''
+      last_comment_uid: 2
+      comment_count: 0
+  field_icms_paragraphs:
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: af5e696a-daf3-41b6-aa74-89e842dc44a8
+          bundle: icms_layout_text
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  width: medium
+                  spacingTop: large
+                  spacingBottom: small
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_pretitle:
+            -
+              value: 'ICMS Bundle'
+          field_icms_subtitle:
+            -
+              value: 'Aggregated articles and resources.'
+          field_icms_text:
+            -
+              value: '<p>The Content hub bundle aggregates articles and resources of different kinds in one filterable overview.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'Content hub'
+          field_icms_title_style:
+            -
+              value: heading-1
+          field_icms_title_weight:
+            -
+              value: h1
+        translations:
+          de:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_pretitle:
+              -
+                value: 'ICMS Bundle'
+            field_icms_subtitle:
+              -
+                value: 'Aggregierte Artikel und Ressourcen.'
+            field_icms_text:
+              -
+                value: '<p>Das Content-Hub-Bundle aggregiert Artikel und Ressourcen verschiedener Art in einer filterbaren Übersicht.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Content Hub'
+          fr:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_pretitle:
+              -
+                value: 'ICMS Bundle'
+            field_icms_subtitle:
+              -
+                value: 'Articles et ressources agrégés.'
+            field_icms_text:
+              -
+                value: '<p>Le bundle Content hub agrège des articles et ressources de différents types dans un aperçu filtrable.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Content hub'
+          it:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_pretitle:
+              -
+                value: 'ICMS Bundle'
+            field_icms_subtitle:
+              -
+                value: 'Articoli e risorse aggregati.'
+            field_icms_text:
+              -
+                value: '<p>Il bundle Content hub aggrega articoli e risorse di vario tipo in una panoramica filtrabile.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Content hub'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: efa38db8-6166-43c5-9c74-8de2889e1ed2
+          bundle: icms_layout_contenthub
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: none
+                  spacingTop: large
+                  spacingBottom: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_listing_type:
+            -
+              value: all
+          field_icms_pretitle:
+            -
+              value: 'Listing · all'
+          field_icms_text:
+            -
+              value: '<p>Lorem sit adipiscing ornare posuere sociosqu mauris ipsum amet elit.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'Overview of all entries'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+        translations:
+          de:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_pretitle:
+              -
+                value: 'Listing · all'
+            field_icms_text:
+              -
+                value: '<p>Sed omnis voluptatem laudantium eaque veritatis vitae perspiciatis iste accusantium.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Übersicht aller Einträge'
+          fr:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_pretitle:
+              -
+                value: 'Listing · all'
+            field_icms_text:
+              -
+                value: '<p>Vero odio blanditiis deleniti dolores excepturi provident accusamus dignissimos praesentium.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Aperçu de toutes les entrées'
+          it:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_pretitle:
+              -
+                value: 'Listing · all'
+            field_icms_text:
+              -
+                value: '<p>Nemo voluptas fugit ratione neque dolorem eius enim aspernatur consequuntur.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Panoramica di tutte le voci'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: bc7c52f3-ed05-4081-8aed-bef10ebad318
+          bundle: icms_layout_contenthub
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: light
+                  spacingTop: large
+                  spacingBottom: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_listing_type:
+            -
+              value: contextual
+          field_icms_pretitle:
+            -
+              value: 'Listing · contextual'
+          field_icms_text:
+            -
+              value: '<p>Elit potenti tortor porttitor montes dolor consectetur mollis dignissim cubilia.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'Contextual by page topics (Thema A)'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+        translations:
+          de:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_pretitle:
+              -
+                value: 'Listing · contextual'
+            field_icms_text:
+              -
+                value: '<p>Accusantium totam quae architecto dicta unde natus doloremque aperiam inventore.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Kontextuell nach Seitenthemen (Thema A)'
+          fr:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_pretitle:
+              -
+                value: 'Listing · contextual'
+            field_icms_text:
+              -
+                value: '<p>Praesentium corrupti quas occaecati similique iusto ducimus voluptatum quos molestias.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Contextuel selon les thèmes de la page (Thema A)'
+          it:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_pretitle:
+              -
+                value: 'Listing · contextual'
+            field_icms_text:
+              -
+                value: '<p>Consequuntur sequi porro adipisci modi ipsam odit magni nesciunt quisquam.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Contestuale secondo i temi della pagina (Thema A)'
+    -
+      entity:
+        _meta:
+          version: '1.0'
+          entity_type: paragraph
+          uuid: 60d15095-d1df-4985-bc88-32e30cf39bff
+          bundle: icms_layout_contenthub
+          default_langcode: en
+        default:
+          status:
+            -
+              value: true
+          behavior_settings:
+            -
+              value:
+                paragraphs_blokkli_data:
+                  colorScheme: accent
+                  spacingTop: large
+                  spacingBottom: large
+          revision_translation_affected:
+            -
+              value: true
+          content_translation_source:
+            -
+              value: und
+          content_translation_outdated:
+            -
+              value: false
+          field_icms_listing_type:
+            -
+              value: manual
+          field_icms_pretitle:
+            -
+              value: 'Listing · manual'
+          field_icms_text:
+            -
+              value: '<p>Cubilia ligula lorem sit adipiscing ornare posuere sociosqu mauris ipsum.</p>'
+              format: icms_basic
+          field_icms_title:
+            -
+              value: 'Manual topic selection (Thema B)'
+          field_icms_title_style:
+            -
+              value: heading-2
+          field_icms_title_weight:
+            -
+              value: h2
+          field_icms_topics:
+            -
+              entity: f8a1a06a-c8bd-4efc-bc59-8feee29d4808
+        translations:
+          de:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_pretitle:
+              -
+                value: 'Listing · manual'
+            field_icms_text:
+              -
+                value: '<p>Inventore beatae sed omnis voluptatem laudantium eaque veritatis vitae perspiciatis.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Manuelle Themenauswahl (Thema B)'
+          fr:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_pretitle:
+              -
+                value: 'Listing · manual'
+            field_icms_text:
+              -
+                value: '<p>Molestias cupiditate vero odio blanditiis deleniti dolores excepturi provident accusamus.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Sélection manuelle des thèmes (Thema B)'
+          it:
+            status:
+              -
+                value: true
+            revision_translation_affected:
+              -
+                value: true
+            content_translation_source:
+              -
+                value: und
+            content_translation_outdated:
+              -
+                value: false
+            field_icms_pretitle:
+              -
+                value: 'Listing · manual'
+            field_icms_text:
+              -
+                value: '<p>Quisquam numquam nemo voluptas fugit ratione neque dolorem eius enim.</p>'
+                format: icms_basic
+            field_icms_title:
+              -
+                value: 'Selezione manuale dei temi (Thema B)'
+  field_icms_teaser_image:
+    -
+      entity: a15d0669-724a-47fe-8032-91e7a6246667
+  field_icms_teaser_pretitle:
+    -
+      value: 'ICMS Bundle'
+  field_icms_teaser_text:
+    -
+      value: 'Aggregated articles and resources.'
+      format: icms_restricted
+  field_icms_teaser_title:
+    -
+      value: 'Content hub'
+  field_icms_topics:
+    -
+      entity: 73a2d543-f54a-4839-82e8-b47627635b66
+translations:
+  de:
+    status:
+      -
+        value: true
+    uid:
+      -
+        entity: d99e7252-4555-4701-a788-25befa086176
+    title:
+      -
+        value: 'Content Hub'
+    promote:
+      -
+        value: false
+    sticky:
+      -
+        value: false
+    moderation_state:
+      -
+        value: published
+    path:
+      -
+        alias: /content-hub
+        langcode: de
+        pathauto: 0
+    content_translation_source:
+      -
+        value: und
+    content_translation_outdated:
+      -
+        value: false
+    body:
+      -
+        value: 'Aggregierte Artikel und Ressourcen.'
+        format: plain_text
+        summary: ''
+    field_icms_teaser_pretitle:
+      -
+        value: 'ICMS Bundle'
+    field_icms_teaser_text:
+      -
+        value: 'Aggregierte Artikel und Ressourcen.'
+        format: icms_restricted
+    field_icms_teaser_title:
+      -
+        value: 'Content Hub'
+  fr:
+    status:
+      -
+        value: true
+    uid:
+      -
+        entity: d99e7252-4555-4701-a788-25befa086176
+    title:
+      -
+        value: 'Content hub'
+    promote:
+      -
+        value: false
+    sticky:
+      -
+        value: false
+    moderation_state:
+      -
+        value: published
+    path:
+      -
+        alias: /content-hub
+        langcode: fr
+        pathauto: 0
+    content_translation_source:
+      -
+        value: und
+    content_translation_outdated:
+      -
+        value: false
+    body:
+      -
+        value: 'Articles et ressources agrégés.'
+        format: plain_text
+        summary: ''
+    field_icms_teaser_pretitle:
+      -
+        value: 'ICMS Bundle'
+    field_icms_teaser_text:
+      -
+        value: 'Articles et ressources agrégés.'
+        format: icms_restricted
+    field_icms_teaser_title:
+      -
+        value: 'Content hub'
+  it:
+    status:
+      -
+        value: true
+    uid:
+      -
+        entity: d99e7252-4555-4701-a788-25befa086176
+    title:
+      -
+        value: 'Content hub'
+    promote:
+      -
+        value: false
+    sticky:
+      -
+        value: false
+    moderation_state:
+      -
+        value: published
+    path:
+      -
+        alias: /content-hub
+        langcode: it
+        pathauto: 0
+    content_translation_source:
+      -
+        value: und
+    content_translation_outdated:
+      -
+        value: false
+    body:
+      -
+        value: 'Articoli e risorse aggregati.'
+        format: plain_text
+        summary: ''
+    field_icms_teaser_pretitle:
+      -
+        value: 'ICMS Bundle'
+    field_icms_teaser_text:
+      -
+        value: 'Articoli e risorse aggregati.'
+        format: icms_restricted
+    field_icms_teaser_title:
+      -
+        value: 'Content hub'
