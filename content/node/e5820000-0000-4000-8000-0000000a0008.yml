@@ -90,9 +90,6 @@ default:
           field_icms_pretitle:
             -
               value: 'ICMS Bundle'
-          field_icms_subtitle:
-            -
-              value: 'Aggregated articles and resources.'
           field_icms_text:
             -
               value: '<p>The Content hub bundle aggregates articles and resources of different kinds in one filterable overview.</p>'
@@ -123,9 +120,6 @@ default:
             field_icms_pretitle:
               -
                 value: 'ICMS Bundle'
-            field_icms_subtitle:
-              -
-                value: 'Aggregierte Artikel und Ressourcen.'
             field_icms_text:
               -
                 value: '<p>Das Content-Hub-Bundle aggregiert Artikel und Ressourcen verschiedener Art in einer filterbaren Übersicht.</p>'
@@ -149,9 +143,6 @@ default:
             field_icms_pretitle:
               -
                 value: 'ICMS Bundle'
-            field_icms_subtitle:
-              -
-                value: 'Articles et ressources agrégés.'
             field_icms_text:
               -
                 value: '<p>Le bundle Content hub agrège des articles et ressources de différents types dans un aperçu filtrable.</p>'
@@ -175,9 +166,6 @@ default:
             field_icms_pretitle:
               -
                 value: 'ICMS Bundle'
-            field_icms_subtitle:
-              -
-                value: 'Articoli e risorse aggregati.'
             field_icms_text:
               -
                 value: '<p>Il bundle Content hub aggrega articoli e risorse di vario tipo in una panoramica filtrabile.</p>'
